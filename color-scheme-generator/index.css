@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+form, input[type=color], input[type=button], select#mode {
+    height: 2.625rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    gap: 0.8em;
+    flex-wrap: wrap;
+    padding: 1.6em 0.8em;
+}
+
+input[type=color] {
+    border: 0.07em solid #313131;
+    width: 3.8125rem;
+}
+
+select#mode {
+    width: 19.5rem;
+    border: 0.07em solid #D1D5DB;
+    border-radius: 0.375em;
+    color: #9CA3AF;
+    padding: 0 0.5em;
+}
+
+input[type=button] {
+    width: 7.7rem;
+    border: 0.07em solid #D1D5DB;
+    border-radius: 0.25em;
+    box-shadow: 0 0.07em 0.13em rgba(0, 0, 0, 0.05);
+    background-color: #FFFFFF;
+    color: #374151;
+    font-size: 0.75rem;
+}
+
+input[type=color]:hover,
+input[type=button]:hover,
+select#mode:hover,
+input[type=color]:focus,
+input[type=button]:focus,
+select#mode:focus {
+    cursor: pointer;
+    background-color: #d5d5d5;
+    color: black;
+}
+
+input[type=color]:active,
+input[type=button]:active,
+select#mode:active {
+    background-color: #afafaf;
+}
+
+.color-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.color-container div, .footer-container div {
+    width: 20vw;
+}
+
+.footer-container {
+    display: flex;
+    height: 10vh;
+}
+
+.footer-container div {
+    padding-top: 2em;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    color: #2B283A;
+    text-align: center;
+}
+
+@media (max-width: 319px) {
+
+    form {
+        width: 100vw;
+        gap: 0.8em;
+        height: 25vh;
+    }
+
+    input[type=color] {
+        width: 35vw;
+    }
+
+    select#mode {
+        width: 90vw;
+        order: -1;
+        font-size: 1rem;
+    }
+
+    input[type=button] {
+        width: 50vw;
+        font-size: 0.8rem;
+    }
+
+    .color-container {
+        height: 60vh;
+    }
+
+    .footer-container div {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 440px) {
+
+    form {
+        width: 100vw;
+        gap: 1em;
+        margin-bottom: 5em;
+        height: 10vh;
+    }
+
+    input[type=color] {
+        width: 40vw;
+    }
+
+    select#mode {
+        width: 90vw;
+        order: -1;
+    }
+
+    input[type=button] {
+        width: 45vw;
+        font-size: 1rem;
+    }
+
+    .color-container {
+        height: 65vh;
+    }
+}
+
+@media (min-width: 441px) and (max-width: 540px) {
+    select#mode {
+        width: 12rem;
+    }
+
+    .color-container {
+        height: 70vh;
+    }
+}
+@media (min-width: 541px) and (max-width: 699px) {
+    .color-container div, .footer-container div {
+        width: 19vw;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    input[type=color] {
+        width: 6rem;
+    }
+
+    select#mode {
+        width: 24rem;
+        font-size: 1.2rem;
+    }
+
+    input[type=button] {
+        width: 10rem;
+        font-size: 1rem;
+    }
+
+    .color-container div, .footer-container div {
+        width: 17vw;
+    }
+
+    .footer-container div {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+    input[type=color] {
+        width: 20vw;
+    }
+
+    select#mode {
+        width: 50vw;
+        font-size: 1.4rem;
+    }
+
+    input[type=button] {
+        width: 20vw;
+        font-size: 1.2rem;
+    }
+
+    .color-container div, .footer-container div {
+        width: 18vw;
+    }
+
+    .footer-container div {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 1101px) {
+
+    form {
+        gap: 2em;
+        margin-top: 2em;
+    }
+
+    input[type=color] {
+        width: 8vw;
+    }
+
+    select#mode {
+        width: 22vw;
+        font-size: 1.4rem;
+    }
+
+    input[type=button] {
+        width: 15vw;
+        font-size: 1.2rem;
+    }
+
+    .footer-container div {
+        font-size: 1.2rem;
+    }
+
+    .color-container {
+        display: flex;
+        height: 70vh;
+    }
+
+    .footer-container {
+        justify-content: center;
+    }
+
+    .color-container div, .footer-container div {
+        width: 10vw;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    input[type=color] {
+        width: 8vw;
+    }
+
+    select#mode {
+        width: 25vw;
+    }
+
+    input[type=button] {
+        width: 13vw;
+    }
+}
