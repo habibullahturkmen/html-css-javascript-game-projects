@@ -1,3 +1,6 @@
+## [Color Scheme Generator](https://github.com/habibullahturkmen/javascript-projects/tree/main/color-scheme-generator)
+![Image](./color-scheme-generator/img.png)
+
 ## [BlogSpace](https://github.com/habibullahturkmen/javascript-projects/tree/main/blog-space)
 ![Image](./blog-space/img2.png)
 
