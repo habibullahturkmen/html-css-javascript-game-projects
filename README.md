@@ -1,4 +1,4 @@
-## [Personal Dashboard](https://github.com/habibullahturkmen/javascript-projects/tree/main/dashboard)
+## [Personal Dashboard](https://github.com/habibullahturkmen/javascript-projects/tree/main/personal-dashboard)
 
 <p align="center">
   <img src="personal-dashboard/img2.png"  alt="Mobile View"/>
